@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="cityType" value="metro"/>
+  <parameter name="financialYear" value="2019-2020"/>
+  <parameter name="basicPay" value="19000.10"/>
+  <parameter name="name" value="Prapti Bhattacharya"/>
+  <parameter name="houseRentAllowance" value="7140.30"/>
+  <parameter name="actualRent" value="8620.56"/>
+  <parameter name="targetURL" value="https://upakaran-HRAExemptionCalculator.github.io/"/>
+  <parameter name="dearnessAllowance" value="1300.75"/>
+  <test name="HRAExemptionTest(failed)">
+    <parameter name="cityType" value="metro"/>
+    <parameter name="financialYear" value="2019-2020"/>
+    <parameter name="basicPay" value="19000.10"/>
+    <parameter name="name" value="Prapti Bhattacharya"/>
+    <parameter name="houseRentAllowance" value="7140.30"/>
+    <parameter name="actualRent" value="8620.56"/>
+    <parameter name="targetURL" value="https://upakaran-HRAExemptionCalculator.github.io/"/>
+    <parameter name="dearnessAllowance" value="1300.75"/>
+    <classes>
+      <class name="com.seleniumpagefactory.test.TestHRA">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="testPdfDownload" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.seleniumpagefactory.test.TestHRA -->
+    </classes>
+  </test> <!-- HRAExemptionTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

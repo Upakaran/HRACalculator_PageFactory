@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="337122" started-at="2020-07-30T07:51:58Z" finished-at="2020-07-30T07:57:35Z">
+    <groups>
+    </groups>
+    <test name="HRAExemptionTest" duration-ms="337122" started-at="2020-07-30T07:51:58Z" finished-at="2020-07-30T07:57:35Z">
+      <class name="com.seleniumpagefactory.test.TestHRA">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.seleniumpagefactory.test.TestHRA@3dd3bcd]" name="beforeTest" is-config="true" duration-ms="36419" started-at="2020-07-30T13:21:58Z" finished-at="2020-07-30T13:22:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://upakaran-HRAExemptionCalculator.github.io/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testHRACalculation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.seleniumpagefactory.test.TestHRA@3dd3bcd]" name="testHRACalculation" duration-ms="18790" started-at="2020-07-30T13:22:35Z" finished-at="2020-07-30T13:22:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19000.10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1300.75]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7140.30]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8620.56]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[metro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHRACalculation -->
+        <test-method status="PASS" signature="testHRAMessage()[pri:0, instance:com.seleniumpagefactory.test.TestHRA@3dd3bcd]" name="testHRAMessage" duration-ms="4069" started-at="2020-07-30T13:22:53Z" finished-at="2020-07-30T13:22:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHRAMessage -->
+        <test-method status="PASS" signature="testPdfDownload(java.lang.String, java.lang.String)[pri:0, instance:com.seleniumpagefactory.test.TestHRA@3dd3bcd]" name="testPdfDownload" duration-ms="19918" started-at="2020-07-30T13:22:58Z" finished-at="2020-07-30T13:23:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prapti Bhattacharya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2019-2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPdfDownload -->
+        <test-method status="PASS" signature="testHTMLTable()[pri:0, instance:com.seleniumpagefactory.test.TestHRA@3dd3bcd]" name="testHTMLTable" duration-ms="226090" started-at="2020-07-30T13:23:17Z" finished-at="2020-07-30T13:27:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHTMLTable -->
+        <test-method status="PASS" signature="testOpenPDF(java.lang.String, java.lang.String)[pri:0, instance:com.seleniumpagefactory.test.TestHRA@3dd3bcd]" name="testOpenPDF" duration-ms="19640" started-at="2020-07-30T13:27:04Z" finished-at="2020-07-30T13:27:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prapti Bhattacharya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2019-2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenPDF -->
+        <test-method status="PASS" signature="testHRAMessageAfterReset()[pri:0, instance:com.seleniumpagefactory.test.TestHRA@3dd3bcd]" name="testHRAMessageAfterReset" duration-ms="6164" started-at="2020-07-30T13:27:23Z" finished-at="2020-07-30T13:27:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHRAMessageAfterReset -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.seleniumpagefactory.test.TestHRA@3dd3bcd]" name="afterTest" is-config="true" duration-ms="5997" started-at="2020-07-30T13:27:29Z" finished-at="2020-07-30T13:27:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.seleniumpagefactory.test.TestHRA -->
+    </test> <!-- HRAExemptionTest -->
+  </suite> <!-- Suite -->
+</testng-results>

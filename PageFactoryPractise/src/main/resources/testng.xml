@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  <test thread-count="1" name="HRAExemptionTest" >
+  
+  	<parameter name="targetURL" value="https://upakaran-HRAExemptionCalculator.github.io/" />
+  	<parameter name="basicPay" value="19000.10" />
+  	<parameter name="dearnessAllowance" value="1300.75" />
+  	<parameter name="houseRentAllowance" value="7140.30" />
+  	<parameter name="actualRent" value="8620.56" />
+  	<parameter name="cityType" value="metro" />
+  	<!-- <parameter name="cityType" value="non-metro" /> -->
+  	<parameter name="name" value="Prapti Bhattacharya" />
+  	<parameter name="financialYear" value="2019-2020" />
+	    <classes>
+	      <class name="com.seleniumpagefactory.test.TestHRA"/>
+	    </classes>
+	    
+  </test> <!-- HRAExemptionTest -->
+</suite> <!-- Suite -->

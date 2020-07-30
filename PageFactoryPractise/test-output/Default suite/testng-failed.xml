@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.seleniumpagefactory.test.TestHRA">
+        <methods>
+          <include name="testHTMLTable"/>
+          <include name="testHRAMessageAfterReset"/>
+          <include name="testHRACalculation"/>
+          <include name="testOpenPDF"/>
+          <include name="testPdfDownload"/>
+          <include name="testHRAMessage"/>
+        </methods>
+      </class> <!-- com.seleniumpagefactory.test.TestHRA -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
