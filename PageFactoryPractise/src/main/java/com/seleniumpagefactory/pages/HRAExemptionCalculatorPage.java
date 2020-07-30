@@ -183,40 +183,49 @@ public class HRAExemptionCalculatorPage {
 			okayElement.click();
 			Thread.sleep(2000);
 		}
-
-		// Create Robot class
-		Robot rb = new Robot();
-
-		// Press control keyboard key
-		rb.keyPress(KeyEvent.VK_CONTROL);
-		Thread.sleep(500);
-		// Press A keyboard key
-		rb.keyPress(KeyEvent.VK_J);
-		Thread.sleep(2000);
-
-		rb.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(500);
-		rb.keyRelease(KeyEvent.VK_J);
-		Thread.sleep(2000);
-
-		// Actions action = new Actions(driver);
-		// action.keyDown(Keys.CONTROL).sendKeys("j").build().perform();
-		//
-		// action.keyUp(Keys.CONTROL).build().perform();
-
-		/*Actions action = new Actions(driver);
-		String openNewTab = Keys.chord(Keys.CONTROL, "j");
-		action.keyDown(openNewTab).build().perform();
-		Thread.sleep(3000);*/
 		
+		try {
+			
+			// Create Robot class
+			Robot rb = new Robot();
+
+			// Press control keyboard key
+			rb.keyPress(KeyEvent.VK_CONTROL);
+			Thread.sleep(500);
+			// Press A keyboard key
+			rb.keyPress(KeyEvent.VK_J);
+			Thread.sleep(2000);
+
+			rb.keyRelease(KeyEvent.VK_CONTROL);
+			Thread.sleep(500);
+			rb.keyRelease(KeyEvent.VK_J);
+			Thread.sleep(2000);
+
+			// Actions action = new Actions(driver);
+			// action.keyDown(Keys.CONTROL).sendKeys("j").build().perform();
+			//
+			// action.keyUp(Keys.CONTROL).build().perform();
+
+			/*Actions action = new Actions(driver);
+			String openNewTab = Keys.chord(Keys.CONTROL, "j");
+			action.keyDown(openNewTab).build().perform();
+			Thread.sleep(3000);*/
+			
+			
+			
+			ArrayList<String> tabs2 = new ArrayList<String>(driver.getWindowHandles());
+			driver.switchTo().window(tabs2.get(1));
+			Thread.sleep(500);
+			driver.close();
+			driver.switchTo().window(tabs2.get(0));
+			Thread.sleep(500);
+			
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+			System.out.println("issue with robot class");
+		}
+
 		
-		
-		ArrayList<String> tabs2 = new ArrayList<String>(driver.getWindowHandles());
-		driver.switchTo().window(tabs2.get(1));
-		Thread.sleep(500);
-		driver.close();
-		driver.switchTo().window(tabs2.get(0));
-		Thread.sleep(500);
 
 	}
 

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="337122" started-at="2020-07-30T07:51:58Z" finished-at="2020-07-30T07:57:35Z">
+  <suite name="Suite" duration-ms="337137" started-at="2020-07-30T09:18:30Z" finished-at="2020-07-30T09:24:07Z">
     <groups>
     </groups>
-    <test name="HRAExemptionTest" duration-ms="337122" started-at="2020-07-30T07:51:58Z" finished-at="2020-07-30T07:57:35Z">
+    <test name="HRAExemptionTest" duration-ms="337137" started-at="2020-07-30T09:18:30Z" finished-at="2020-07-30T09:24:07Z">
       <class name="com.seleniumpagefactory.test.TestHRA">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.seleniumpagefactory.test.TestHRA@3dd3bcd]" name="beforeTest" is-config="true" duration-ms="36419" started-at="2020-07-30T13:21:58Z" finished-at="2020-07-30T13:22:35Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.seleniumpagefactory.test.TestHRA@3dd3bcd]" name="beforeTest" is-config="true" duration-ms="27683" started-at="2020-07-30T14:48:30Z" finished-at="2020-07-30T14:48:58Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testHRACalculation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.seleniumpagefactory.test.TestHRA@3dd3bcd]" name="testHRACalculation" duration-ms="18790" started-at="2020-07-30T13:22:35Z" finished-at="2020-07-30T13:22:53Z">
+        <test-method status="PASS" signature="testHRACalculation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.seleniumpagefactory.test.TestHRA@3dd3bcd]" name="testHRACalculation" duration-ms="19355" started-at="2020-07-30T14:48:58Z" finished-at="2020-07-30T14:49:17Z">
           <params>
             <param index="0">
               <value>
@@ -49,11 +49,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHRACalculation -->
-        <test-method status="PASS" signature="testHRAMessage()[pri:0, instance:com.seleniumpagefactory.test.TestHRA@3dd3bcd]" name="testHRAMessage" duration-ms="4069" started-at="2020-07-30T13:22:53Z" finished-at="2020-07-30T13:22:58Z">
+        <test-method status="PASS" signature="testHRAMessage()[pri:0, instance:com.seleniumpagefactory.test.TestHRA@3dd3bcd]" name="testHRAMessage" duration-ms="4117" started-at="2020-07-30T14:49:17Z" finished-at="2020-07-30T14:49:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHRAMessage -->
-        <test-method status="PASS" signature="testPdfDownload(java.lang.String, java.lang.String)[pri:0, instance:com.seleniumpagefactory.test.TestHRA@3dd3bcd]" name="testPdfDownload" duration-ms="19918" started-at="2020-07-30T13:22:58Z" finished-at="2020-07-30T13:23:17Z">
+        <test-method status="PASS" signature="testPdfDownload(java.lang.String, java.lang.String)[pri:0, instance:com.seleniumpagefactory.test.TestHRA@3dd3bcd]" name="testPdfDownload" duration-ms="29395" started-at="2020-07-30T14:49:21Z" finished-at="2020-07-30T14:49:51Z">
           <params>
             <param index="0">
               <value>
@@ -69,11 +69,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPdfDownload -->
-        <test-method status="PASS" signature="testHTMLTable()[pri:0, instance:com.seleniumpagefactory.test.TestHRA@3dd3bcd]" name="testHTMLTable" duration-ms="226090" started-at="2020-07-30T13:23:17Z" finished-at="2020-07-30T13:27:04Z">
+        <test-method status="PASS" signature="testHTMLTable()[pri:0, instance:com.seleniumpagefactory.test.TestHRA@3dd3bcd]" name="testHTMLTable" duration-ms="226856" started-at="2020-07-30T14:49:51Z" finished-at="2020-07-30T14:53:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHTMLTable -->
-        <test-method status="PASS" signature="testOpenPDF(java.lang.String, java.lang.String)[pri:0, instance:com.seleniumpagefactory.test.TestHRA@3dd3bcd]" name="testOpenPDF" duration-ms="19640" started-at="2020-07-30T13:27:04Z" finished-at="2020-07-30T13:27:23Z">
+        <test-method status="PASS" signature="testOpenPDF(java.lang.String, java.lang.String)[pri:0, instance:com.seleniumpagefactory.test.TestHRA@3dd3bcd]" name="testOpenPDF" duration-ms="19570" started-at="2020-07-30T14:53:38Z" finished-at="2020-07-30T14:53:57Z">
           <params>
             <param index="0">
               <value>
@@ -89,11 +89,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOpenPDF -->
-        <test-method status="PASS" signature="testHRAMessageAfterReset()[pri:0, instance:com.seleniumpagefactory.test.TestHRA@3dd3bcd]" name="testHRAMessageAfterReset" duration-ms="6164" started-at="2020-07-30T13:27:23Z" finished-at="2020-07-30T13:27:29Z">
+        <test-method status="PASS" signature="testHRAMessageAfterReset()[pri:0, instance:com.seleniumpagefactory.test.TestHRA@3dd3bcd]" name="testHRAMessageAfterReset" duration-ms="6181" started-at="2020-07-30T14:53:57Z" finished-at="2020-07-30T14:54:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHRAMessageAfterReset -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.seleniumpagefactory.test.TestHRA@3dd3bcd]" name="afterTest" is-config="true" duration-ms="5997" started-at="2020-07-30T13:27:29Z" finished-at="2020-07-30T13:27:35Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.seleniumpagefactory.test.TestHRA@3dd3bcd]" name="afterTest" is-config="true" duration-ms="3933" started-at="2020-07-30T14:54:03Z" finished-at="2020-07-30T14:54:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
