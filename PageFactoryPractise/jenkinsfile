@@ -5,7 +5,7 @@ pipeline {
             steps {
                withMaven(maven : 'Apache Maven 3.6.1'){
 			   echo "maven clean"
-               bat "mvn -f ./pom.xml clean compile"
+               bat "mvn -f ./PageFactoryPractise/pom.xml clean compile"
                }
             }
         }
@@ -13,7 +13,7 @@ pipeline {
             steps {
                withMaven(maven : 'Apache Maven 3.6.1'){
 			   echo "maven test"
-                bat "mvn f ./pom.xml test"
+                bat "mvn f ./PageFactoryPractise/pom.xml test"
                }
             }
         }
@@ -21,7 +21,7 @@ pipeline {
             steps {
                withMaven(maven : 'Apache Maven 3.6.1'){
 			    echo "maven deploy"
-                bat "mvn f ./pom.xml deploy"
+                bat "mvn f ./PageFactoryPractise/pom.xml deploy"
                }
             }
         }
