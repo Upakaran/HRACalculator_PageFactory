@@ -4,21 +4,24 @@ pipeline {
         stage('Compile Stage') { 
             steps {
                withMaven(maven : 'Apache Maven 3.6.1'){
-               bat "mvn clean compile"
+			   echo "maven clean"
+               bat "mvn -f ./pom.xml clean compile"
                }
             }
         }
         stage('Testing stage') { 
             steps {
                withMaven(maven : 'Apache Maven 3.6.1'){
-                bat "mvn test"
+			   echo "maven test"
+                bat "mvn f ./pom.xml test"
                }
             }
         }
         stage('Deployment stage') { 
             steps {
                withMaven(maven : 'Apache Maven 3.6.1'){
-                bat "mvn deploy"
+			    echo "maven deploy"
+                bat "mvn f ./pom.xml deploy"
                }
             }
         }
