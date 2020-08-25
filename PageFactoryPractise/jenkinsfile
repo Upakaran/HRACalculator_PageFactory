@@ -21,7 +21,7 @@ pipeline {
             steps {
                withMaven(maven : 'Apache Maven 3.6.1'){
 			    echo "maven deploy"
-                bat "mvn -f ./PageFactoryPractise/pom.xml deploy"
+                 bat "mvn -f ./PageFactoryPractise/pom.xml clean deploy -Dmaven.test.skip=true"
                }
             }
         }

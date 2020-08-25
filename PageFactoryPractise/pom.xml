@@ -65,16 +65,16 @@
 							<goal>deploy-file</goal>
 						</goals>
 						<configuration>
-							<file>./target</file>
-							<url>http://localhost:4040</url>
+						<!--	<file>./target</file>  -->
+							<url>file:///C:/Users/Kaushik/.m2/repository/</url>
 							<groupId>test.project</groupId>
 							<artifactId>PageFactoryPractise</artifactId>
 							<version>0.0.1-SNAPSHOT</version>
 							<packaging>jar</packaging>
-						</configuration>
+						</configuration> 
 					</execution>
 				</executions>
-			</plugin>
+			</plugin>  
 			
 		</plugins>
 
@@ -158,4 +158,14 @@
 			<version>2.3.23</version>
 		</dependency>	
   </dependencies>
+  
+  <distributionManagement>
+       <repository>
+         <id>test.project</id>
+         <name>PageFactoryPractise</name>
+         <url>file:///C:/Users/Kaushik/.m2/repository/</url>
+       </repository>
+   </distributionManagement>
+  
+  
 </project>
