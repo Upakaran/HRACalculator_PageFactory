@@ -65,7 +65,7 @@
 							<goal>deploy-file</goal>
 						</goals>
 						<configuration>
-						<!--	<file>./target</file>  -->
+							<file>file:///C:/Users/Kaushik/.m2/repository/target.jar</file>  
 							<url>file:///C:/Users/Kaushik/.m2/repository/</url>
 							<groupId>test.project</groupId>
 							<artifactId>PageFactoryPractise</artifactId>
